@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+s
+ * {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: "Chakra Petch", sans-serif;
+}  
+
+  body{
+  
+    background-color: #F5EFFF;
+    color: black;
+  }
+
+ .columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+ 
+ }
+
+ .box{
+  width: 300px;
+  height: 370px;
+  
+ }
+
+ .header {
+   padding: 10px 20px;
+   font-size: 2.2em;
+   font-weight: 900;
+   color: rgb(222, 219, 215);
+   font-family: monospace;
+ }
+
+ .yellow {
+  background-color: #f46c0b;
+  border-radius: 5px 0 0 5px;
+ }
+
+ p{
+  padding-left: 20px;
+  font-size: 1.4em;
+  font-weight: 400;
+  color: snow;
+  padding-bottom: 10px;
+ }
+
+ .yellow button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+  border-radius: 17px;
+  outline: none;
+  border: none;
+  color: #f46c0b;
+ }
+
+ 
+ .blue {
+  background-color: #124E78;
+
+  
+ }
+
+ .green {
+  background-color: #08A045;
+  border-radius: 0 5px 5px 0;
+
+ }
+
+
+ 
+ .blue button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+  border-radius: 17px;
+  outline: none;
+  border: none;
+  color: #124E78;
+ }
+
+ 
+ .green button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 150px;
+  margin: auto;
+  border-radius: 17px;
+  outline: none;
+  border: none;
+  color: #08A045;
+
+ }
+
+
+ .yellow button:hover {
+  background-color: #f46c0b;
+  border: 2px solid snow;
+  color: snow;
+  transition: 1s;
+  cursor: pointer;
+ }
+
+ .blue button:hover {
+  background-color: #124E78;
+  border: 2px solid snow;
+  color: snow;
+  transition: 1s;
+  cursor: pointer;
+ }
+
+ .green button:hover {
+  background-color: #08A045;
+  border: 2px solid snow;
+  color: snow;
+  transition: 1s;
+  cursor: pointer;
+ }
